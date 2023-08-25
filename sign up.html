@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="sign up.css">
+    <script src="sign up.js"></script>
+    <meta charset="UTF-8">
+    <title>smol recap mofo</title>
+    <link rel="shortcut icon" href="insta.png" sizes="16x16" type="image/x-icon"/>
+</head>
+<body>
+    <p><img onmouseover="ImagineGrand(this)" onmouseout="ImageNormal(this)" src="Desert.jpg" alt="Desert" height="100" width="100" class="avatar"></p>
+    
+    <p style="text-align: center;">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="firstname" placeholder="First Name"><br>
+        <input type="text" id="mail" placeholder="Phone number or E-mail adress" size="46px"><br>
+        <input type="password" id="passw" placeholder="Password" size="46px">
+    </p>
+
+    <p style="text-align: center;">
+        Date of birth<br>
+        <input list="d" type="text" id="days" placeholder="1" size="11px">
+        <datalist id="d">
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+            <option value="4"></option>
+            <option value="5"></option>
+            <option value="6"></option>
+            <option value="7"></option>
+            <option value="8"></option>
+            <option value="9"></option>
+            <option value="10"></option>
+            <option value="11"></option>
+            <option value="12"></option>
+            <option value="13"></option>
+            <option value="14"></option>
+            <option value="15"></option>
+            <option value="16"></option>
+            <option value="17"></option>
+            <option value="18"></option>
+            <option value="19"></option>
+            <option value="20"></option>
+            <option value="21"></option>
+            <option value="22"></option>
+            <option value="23"></option>
+            <option value="24"></option>
+            <option value="25"></option>
+            <option value="26"></option>
+            <option value="27"></option>
+            <option value="28"></option>
+            <option value="29"></option>
+            <option value="30"></option>
+            <option value="31"></option>
+        </datalist>
+        <input list="m" type="text" id="months" placeholder="Jan" size="11px">
+        <datalist id="m">
+            <option value="January"></option>
+            <option value="February"></option>
+            <option value="March"></option>
+            <option value="April"></option>
+            <option value="May"></option>
+            <option value="Juine"></option>
+            <option value="Julay"></option>
+            <option value="August"></option>
+            <option value="Septembr"></option>
+            <option value="October"></option>
+            <option value="November"></option>
+            <option value="December"></option>
+        </datalist>
+        <input list="y" type="text" id="years" placeholder="2000" size="11px">
+        <datalist id="y">
+            <option value="2004"></option>
+            <option value="2003"></option>
+            <option value="2002"></option>
+            <option value="2001"></option>
+            <option value="2000"></option>
+            <option value="1999"></option>
+            <option value="1998"></option>
+            <option value="1997"></option>
+            <option value="1996"></option>
+            <option value="1995"></option>
+            <option value="1994"></option>
+        </datalist>
+    </p>
+
+    <p style="text-align: center;"> 
+        <input list="origin country" type="text" id="oc" placeholder="Country">
+        <datalist id="origin country">
+            <option value="Germany"></option>
+            <option value="France"></option>
+            <option value="United States"></option>
+            <option value="Tunisia"></option>
+            <option value="Morocco"></option>
+            <option value="Spain"></option>
+        </datalist>
+    </p>
+
+    <p style="text-align: center;font-size: 30px;">
+        <button type="button" onclick="verif()">Sign up</button>
+        <a href="main page.html" target="_self"><button type="button" onclick="reset()">Cancel</button></a>
+    </p>
+</body>
+</html>
